@@ -1,12 +1,12 @@
 # Tadas Martišius
 
-I’m based in Kaunas, Lithuania, and graduated from a vocational program in Java programming. My focus is Linux systems administration and database reliability. I put both into practice in an Oracle Cloud homelab that I designed, deployed and maintain.
+I’m based in Kaunas, Lithuania, and graduated from a vocational program in Java programming. I build desktop software for Linux and manage my own server on Oracle Cloud.
 
 ## Oracle Cloud homelab
 
-I run a static website and a whitelist-only Minecraft server on one Ubuntu ARM virtual machine. Separate Docker Compose projects let me update the website while players stay connected. I administer both services over Tailscale.
+I’m building a website for my print store and hosting it alongside a private Minecraft server on one Ubuntu VM. Each service has its own Docker Compose project, so I can update the site while players stay connected.
 
-The workloads share a boot disk, so a scheduled job on my Windows PC pulls a snapshot over SSH and stores it in an encrypted restic repository. During a restore test, I verified 353 file hashes and ran SQLite’s `PRAGMA quick_check` on all seven restored 1Panel databases. [Architecture](https://github.com/noonforme/oracle-cloud-homelab/blob/main/docs/architecture.md) · [Restore results](https://github.com/noonforme/oracle-cloud-homelab/blob/main/docs/operations.md#verification-and-restore)
+I administer the VM over Tailscale and keep nightly encrypted backups on a separate PC. [Homelab architecture](https://github.com/noonforme/oracle-cloud-homelab/blob/main/docs/architecture.md) · [Backup and recovery](https://github.com/noonforme/oracle-cloud-homelab/blob/main/docs/operations.md#verification-and-restore)
 
 ## Software projects
 
