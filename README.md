@@ -12,8 +12,6 @@ I’m based in Kaunas, Lithuania, and graduated from a vocational program in Jav
 
 ### LifeOS
 
-[![LifeOS Linux build and tests](https://github.com/noonforme/lifeManager/actions/workflows/linux.yml/badge.svg?branch=main)](https://github.com/noonforme/lifeManager/actions/workflows/linux.yml?query=branch%3Amain)
-
 LifeOS is a Linux desktop app for tracking shifts, schedules and pay agreements. It uses Flutter and Dart for the interface and stores data locally in SQLite. A Python script runs the migration and backup-restore tests before the Linux app is packaged. [Project and build instructions](https://github.com/noonforme/lifeManager) · [Python build and test script](https://github.com/noonforme/lifeManager/blob/main/tool/ci/run.py)
 
 ### Java coursework
